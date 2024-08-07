@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Mama Lucas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="logo.svg" alt="Logo Padaria Mama Lucas" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#sobre"><i class="fas fa-info-circle"></i> Sobre Nós</a></li>
+                <li><a href="#produtos"><i class="fas fa-bread-slice"></i> Produtos</a></li>
+                <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+                <li><a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h1>Sobre Nós</h1>
+            <p>Venha descobrir os sabores irresistíveis dos nossos pães, doces e salgados!</p>
+            <p>Priorizamos a qualidade e oferecemos um atendimento excepcional.</p>
+            <p>Visite-nos e faça parte da nossa história de tradição e sabor!</p>
+        </section>
+        <section id="produtos">
+            <h1>Produtos da Padaria</h1>
+            <div class="linha-produtos">
+                <h2>Pães</h2>
+                <ul>
+                    <li><i class="fas fa-bread-slice"></i> Pão Francês</li>
+                    <li><i class="fas fa-bread-slice"></i> Pão Integral</li>
+                    <li><i class="fas fa-bread-slice"></i> Pão de Forma</li>
+                    <li><i class="fas fa-bread-slice"></i> Pão de Centeio</li>
+                </ul>
+            </div>
+            <div class="linha-produtos">
+                <h2>Doces</h2>
+                <ul>
+                    <li><i class="fas fa-cookie"></i> Bolo de Chocolate</li>
+                    <li><i class="fas fa-cookie"></i> Torta de Limão</li>
+                    <li><i class="fas fa-cookie"></i> Brigadeiro</li>
+                    <li><i class="fas fa-cookie"></i> Quindim</li>
+                </ul>
+            </div>
+            <div class="linha-produtos">
+                <h2>Salgados</h2>
+                <ul>
+                    <li><i class="fas fa-pizza-slice"></i> Empada de Frango</li>
+                    <li><i class="fas fa-pizza-slice"></i> Coxinha</li>
+                    <li><i class="fas fa-pizza-slice"></i> Quiche de Queijo</li>
+                    <li><i class="fas fa-pizza-slice"></i> Esfiha</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contato">
+            <h1>Contato</h1>
+            <form id="contact-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>        
+        <section id="faq">
+            <h1>FAQ</h1>
+            <ul>
+                <li><strong><i class="fas fa-clock"></i> Quais são os horários de funcionamento?</strong> Nossos horários são de segunda a sábado, das 7h às 22h.</li>
+                <li><strong><i class="fas fa-credit-card"></i> Quais métodos de pagamento são aceitos?</strong> Aceitamos cartões de crédito, débito e pagamentos em dinheiro.</li>
+                <li><strong><i class="fas fa-map-marker-alt"></i> Onde estamos localizados?</strong> Estamos localizados dentro do supermercado Mama Lucas, na seção de padaria.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Padaria Mama Lucas. Todos os direitos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
