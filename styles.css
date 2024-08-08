@@ -1,4 +1,3 @@
-/* Variáveis CSS */
 :root {
     --primary-color: #ff6347; /* Tomate */
     --secondary-color: #4caf50; /* Verde */
@@ -7,12 +6,11 @@
     --font-family: 'Arial, sans-serif';
 }
 
-/* Estilos gerais */
 body {
     font-family: var(--font-family);
+    font-family: Arial, sans-serif;
     color: #333;
     background-color: var(--background-color);
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -39,7 +37,7 @@ nav li {
     background-color: rgba(1, 10, 0, 0.829);
 }
 
-/* Estilo para os ícones */
+/* Estilo ds ícones */
 nav i {
     margin-right: 5px;
 }
@@ -166,16 +164,6 @@ form button:hover {
     background-color: #388e3c;
 }
 
-
-/* styles.css */
-
-/* Estilos gerais */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
 
 ul {
     padding-left: 20px;
