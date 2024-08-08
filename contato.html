@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama Lucas | Contatos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="logo.svg" alt="Logo Padaria Mama Lucas" class="logo">
+        </a>        <nav>
+            <ul>
+                <li><a href="sobre.html"><i class="fas fa-info-circle"></i> Sobre Nós</a></li>
+                <li><a href="produtos.html"><i class="fas fa-bread-slice"></i> Produtos</a></li>
+                <li><a href="contato.html"><i class="fas fa-envelope"></i> Contato</a></li>
+                <li><a href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contato">
+            <h1>Peça pelo nosso WhatsApp</h1>
+            <form id="contact-form">
+                <div style="display: flex; flex-wrap: wrap;">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <label for="nome">Nome do Cliente:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div style="flex: 1;">
+                        <label for="cep">CEP:</label>
+                        <input type="text" id="cep" name="cep" required>
+                    </div>
+                </div>
+                <div style="display: flex; flex-wrap: wrap;">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <label for="nome">Logradouro:</label>
+                        <input type="text" id="logradouro" name="logradouro" required>
+                    </div>
+                    <div style="flex: 1;">
+                        <label for="cep">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade" required>
+                    </div>
+                </div>
+                <div style="display: flex; flex-wrap: wrap;">
+                    <div style="flex: 1; margin-right: 20px;">
+                        <label for="nome">Número:</label>
+                        <input type="text" id="numero" name="numero" required>
+                    </div>
+                    <div style="flex: 1;">
+                        <label for="cep">Bairro:</label>
+                        <input type="text" id="bairro" name="bairro" required>
+                    </div>
+                </div>
+                <div style="flex: 1;">
+                    <label for="cep">Complemento/Referência:</label>
+                    <textarea id="complemento" name="complemento"></textarea>
+                </div>       
+                <div style="flex: 1;">
+                    <label for="cep">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>              
+                <button type="submit">Enviar</button>
+            </form>
+        </section>  
+    </main>
+    <footer>
+        <p>© 2024 Padaria Mama Lucas. Todos os direitos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
